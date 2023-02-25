@@ -1,0 +1,108 @@
+
+body{
+    box-sizing: border-box;
+    border-radius: 1%;
+    border-style: solid;
+    border-color: khaki;
+    
+}
+.fila{
+    border-color: black;
+    border-style: solid;
+    display: table-row;
+       
+    
+}
+.columna1{
+    border-color: khaki;
+    border-style: solid;
+    display: table-cell;
+    width: 174px ;
+    height: 225px;
+    background-image: url(messi.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    /*si no pongo esto, cuando toco el boton
+    se estira la imagen y se ve el fondo blanco, osea, esta mal*/
+    
+}
+.columna2{
+    
+    border-color: khaki;
+    border-style: solid;
+    display: table-cell;
+    width: 100%;
+    background-color: skyblue;
+     
+       
+}
+.fila2{
+    border-color: khaki;
+    border-style: solid;
+    display: table-row;/*si pongo table-cell me hace dos cuadros abajo del primer cuadro de
+    arriba*/
+    /*SI PONGO  BLock ESTO ME GENERA UN CUADRO
+    display: block;
+    */
+}
+.columna3{
+    border-color: khaki;
+    border-style: solid;
+    display: table-cell;
+    height:max-content;
+    background-color: skyblue;
+    width: 174px ;
+    
+}
+.columna4{
+    background-color: beige;
+    border-color: khaki;
+    border-style: solid;
+    display: table-cell;
+    height: auto;  
+    
+       
+}
+
+.lineas{ 
+    border-top-style: solid;
+    border-left-style: solid;
+    border-color: black;
+    border-top-style: inset;
+    margin: 0px 50px 0px 50px;
+}
+
+#formacion{
+    font-style: oblique;
+    font-size: 25px;
+    margin: 0px 50px 0px 50px;
+}
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 31px;
+}
+
+#nombre{
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+p{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    font-size: 22px;
+}
+.boton{
+    font-family: 'Times New Roman', Times, serif;
+    
+    /* ver porque no me toma corregir los margenes desde css tampoco 
+    puedo usar el text-align ;
+    margin: 0px 50px 0px 50px;
+    text-align:center */
+}
+#bordes-iconos{
+    border-radius: 35%;
+    border-style: dashed;
+    margin-left: 40%;
+}
